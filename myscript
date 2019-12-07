@@ -1,4 +1,8 @@
 #!/bin/bash
 echo "Hello World"
-today_date=$1
-echo "Today's date is $today_date"
+if [ $1 == $(date +%d%m%Y) ]
+then
+echo "Test Passed"
+else
+echo "You failed"
+fi
