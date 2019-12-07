@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Hello World"
+today_date=$1
+echo "Today's date is today_date"
